@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,12 +20,15 @@
 						<img src="./img/activebox-logo.png" alt="логотип компании">
 					</div>
 					<nav class="header--nav">
-						<a class="header--nav-link" href="#">Features</a>
-						<a class="header--nav-link" href="#">Works</a>
-						<a class="header--nav-link" href="#">Our Team</a>
-						<a class="header--nav-link" href="#">Testimonials</a>
-						<a class="header--nav-link" href="#">Download</a>
+						<a class="header--nav-link" href="#feature">Features</a>
+						<a class="header--nav-link" href="#works">Works</a>
+						<a class="header--nav-link" href="#team">Our Team</a>
+						<a class="header--nav-link" href="#review">Testimonials</a>
+						<a class="header--nav-link" href="#dowload">Download</a>
 					</nav>
+					<button class="burger" type="button">
+						<span class="burger__item">Menu</span>
+					</button>
 				</div>
 
 
@@ -40,39 +44,38 @@
 			</div>
 		</div>
 	</div>
-	<div class="feature">
+	<div id=feature class="feature">
 		<div class="container">
-			<div class="wrap">
+			<div class="feature--wrap">
 				<div class="feature--item custom">
-					<h3>Easily Customised</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+					<h3 class="feature--title">Easily Customised</h3>
+					<div class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</div>
 				</div>
-				<div class="feature--item redy">
-					<h3>Responsive REady</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+				<div class="feature--item respont">
+					<h3 class = "feature--title">Responsive Ready</h3>
+					<p class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
 				</div>
-				<div class="feature--item design">
-					<h3>Modern Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+				<div class="feature--item modern">
+					<h3 class="feature--title">Modern Design</h3>
+					<div class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</div>
 				</div>
-			</div>
-			<div class="wrap">
-				<div class="feature--item code">
-					<h3>Clean Code</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+				<div class="feature--item clean">
+					<h3 class="feature--title">Clean Code</h3>
+					<div class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</div>
 				</div>
-				<div class="feature--item ship">
-					<h3>Ready to Ship</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+				<div class="feature--item ready">
+					<h3 class="feature--title">Ready to Ship</h3>
+					<div class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</div>
 				</div>
-				<div class="feature--item free">
-					<h3>Download for Free</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</p>
+				<div class="feature--item downl">
+					<h3 class="feature--title">Download for Free</h3>
+					<div class="feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente earum aspernatur nulla dolorem, culpa reiciendis tempora perspiciatis amet.</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
-	<div class="works">
+	<div id=works class="works">
 		<div class="works--foto">
 			<img src="./img/works/work-1.jpg" alt="Работа 1">
 		</div>
@@ -99,60 +102,119 @@
 		</div>
 	</div>
 	</div>
-	<div class="team">
+	<div id=team class="team">
 		<div class="container">
 			<div class="wrap">
 				<div class="team--item woods">
-				<div class="item--foto">
-					<img src="./img/team/team-1.jpg" alt="">
-				</div>
+					<div class="item--foto">
+						<img src="./img/team/team-1.jpg" alt="">
+					</div>
 					<h3 class="item--title">Ruth Woods</h3>
 					<h4 class="team--item--h4">Founder, CEO</h4>
-					<p class = "item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
-					<a href="#"><img class = "item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
-					<a href="#"><img class = "item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
-					<a href="#"><img class = "item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
-					<a href="#"><img class = "item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
+					<p class="item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
+					<a href="#"><img class="item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
+					<a href="#"><img class="item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
+					<a href="#"><img class="item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
+					<a href="#"><img class="item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
 				</div>
 				<div class="team--item reed">
-				<div class="item--foto">
-					<img src="./img/team/team-2.jpg" alt="">
-				</div>
+					<div class="item--foto">
+						<img src="./img/team/team-2.jpg" alt="">
+					</div>
 					<h3 class="item--title">Timothy Reed</h3>
 					<h4 class="team--item--h4">Co-Founder, Developer</h4>
-					<p class = "item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
-					<a href="#"><img class = "item-icon"  src="./img/facebook.svg" alt="Фейсбук"></a>
-					<a href="#"><img class = "item-icon"  src="./img/twitter.svg" alt="Твиттер"></a>
-					<a href="#"><img class = "item-icon"  src="./img/instagram.svg" alt="Инстаграмм"></a>
-					<a href="#"><img class = "item-icon"  src="./img/linkedin.svg" alt="Линкедин"></a>
+					<p class="item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
+					<a href="#"><img class="item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
+					<a href="#"><img class="item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
+					<a href="#"><img class="item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
+					<a href="#"><img class="item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
 				</div>
 				<div class="team--item valdez">
-				<div class="item--foto">
-					<img src="./img/team/team-3.jpg" alt="">
-				</div>
+					<div class="item--foto">
+						<img src="./img/team/team-3.jpg" alt="">
+					</div>
 					<h3 class="item--title">Victoria Valdez</h3>
 					<h4 class="team--item--h4">UI Designer</h4>
-					<p class = "item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
-					<a href="#"><img class = "item-icon"  src="./img/facebook.svg" alt="Фейсбук"></a>
-					<a href="#"><img class = "item-icon"  src="./img/twitter.svg" alt="Твиттер"></a>
-					<a href="#"><img class = "item-icon"  src="./img/instagram.svg" alt="Инстаграмм"></a>
-					<a href="#"><img class = "item-icon"  src="./img/linkedin.svg" alt="Линкедин"></a>
+					<p class="item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
+					<a href="#"><img class="item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
+					<a href="#"><img class="item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
+					<a href="#"><img class="item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
+					<a href="#"><img class="item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
 				</div>
 				<div class="team--item little">
-				<div class="item-foto">
-					<img src="./img/team/team-4.jpg" alt="">
-				</div>
+					<div class="item-foto">
+						<img src="./img/team/team-4.jpg" alt="">
+					</div>
 					<h3 class="item--title">Beverly Little</h3>
 					<h4 class="team--item--h4">Data Scientist</h4>
-					<p class = "item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
-					<a href="#"><img class = "item-icon"  src="./img/facebook.svg" alt="Фейсбук"></a>
-					<a href="#"><img class = "item-icon"  src="./img/twitter.svg" alt="Твиттер"></a>
-					<a href="#"><img class = "item-icon"  src="./img/instagram.svg" alt="Инстаграмм"></a>
-					<a href="#"><img class = "item-icon"  src="./img/linkedin.svg" alt="Линкедин"></a>
+					<p class="item--subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores ipsa. Velit necessitatibus quaerat officiis aliquam totam delectus architecto ut reprehenderit maxime. Labore, provident cupiditate!</p>
+					<a href="#"><img class="item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
+					<a href="#"><img class="item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
+					<a href="#"><img class="item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
+					<a href="#"><img class="item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div id=review class="review">
+
+		<div class="review--item">
+			<div class="review--slider">
+				<img class="slider--img" src="./img/review/review-1.jpg" alt="">
+			</div>
+			<div class="review--info">
+				<figure class="review--title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean en leo quam...“
+					<figcaption class="review--subtitle">Susan Sims, Interaction Designer at XYZ</figcaption>
+				</figure>
+				
+			</div>
+		</div>
+	</div>
+	<div id=dowload class="dowload">
+		<div class="comtainer">
+			<div class="dowload--content">
+				<h2 class="content--title">Are You Ready to Start? Download Now For Free!</h2>
+				<h3 class="content--subtitle">Fusce dapibus, tellus ac cursus commodo</h3>
+				<div class="content--link">
+					<a class="content--button" href="#">Download Here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="wrap">
+				<div class="footer--item location">
+					<h3>Location</h3>
+					<p>3481 Melrose Place Beverly Hills, CA 90210</p>
+				</div>
+				<div class="footer--item share">
+					<h3>Share with love</h3>
+					<p><a href="#"><img class="item-icon" src="./img/facebook.svg" alt="Фейсбук"></a>
+						<a href="#"><img class="item-icon" src="./img/twitter.svg" alt="Твиттер"></a>
+						<a href="#"><img class="item-icon" src="./img/instagram.svg" alt="Инстаграмм"></a>
+						<a href="#"><img class="item-icon" src="./img/linkedin.svg" alt="Линкедин"></a>
+					</p>
+				</div>
+				<div class="footer--item location about">
+					<h3>About activebox</h3>
+					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nula non metus auctor fringilla</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="copiring">
+		<div class="container">
+			<p>Copyright © 2020 ActiveBox. All Rights Reserved </p>
+			<p>Made with <span><img src="./img/love.svg" alt=""></span> by Korobeinikiv Uyriy</p>
+		</div>
+	</div>
+
+
+	</div>
+
+
 
 </body>
 
